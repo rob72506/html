@@ -1,35 +1,71 @@
-<html>
-  
-<header style="background-color: #00ffa2; padding: 20px" header>
-  <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;text-align: center ; font-size: 45px ; margin: 0;">Экология</p>
-  </header>
-  <main>
- <p style="font-size: 35px; color: #00ff37; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-  Что можно делать каждый день?
-</p>
-<p style="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    - Экономить воду и электричество
-</p>
-    <p style="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    - Сдавать батарейки и пластик
-</p>
-    <p style="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    - Использовать многоразовую бутылку
-</p>
-    <p style="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    - Не мусорить на улице
-</p>
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Экология</title>
+  <style>
     
-  </main>
-<footer style="background-color: #0091ff">
-  <p style="color: #ffffff;text-align: center ; font-size: 25px ; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-    © 2026 Урок "Веб-разработка
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('assets/eco.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .footer-link {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header style="background-color: #00ffa2; padding: 20px;">
+    <p style="text-align: center; font-size: 45px; margin: 0; font-weight: bold;">Экология</p>
+  </header>
+
+  <main>
+    <p style="font-size: 35px; color: #00ff37; font-weight: bold; margin-top: 10px;">
+      Что можно делать каждый день?
     </p>
-   <p style="text-align: center ; font-size: 25px ; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-  <a href="google.com">
-    Подробнее о экологии
-    </a>
-</p>
+    <p style="font-size: 30px; color: #ffffff; text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">
+      - Экономить воду и электричество
+    </p>
+    <p style="font-size: 30px; color: #ffffff; text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">
+      - Сдавать батарейки и пластик
+    </p>
+    <p style="font-size: 30px; color: #ffffff; text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">
+      - Использовать многоразовую бутылку
+    </p>
+    <p style="font-size: 30px; color: #ffffff; text-shadow: 1px 1px 5px rgba(0,0,0,0.7);">
+      - Не мусорить на улице
+    </p>
+  </main>
+
+  <footer style="background-color: #0091ff; padding: 15px;">
+    <p style="color: #ffffff; text-align: center; font-size: 25px; margin: 5px 0;">
+      © 2026 Урок "Веб-разработка"
+    </p>
+    <p style="text-align: center; font-size: 25px; margin: 5px 0;">
+      <a class="footer-link" href="https://google.com" target="_blank">
+        Подробнее об экологии
+      </a>
+    </p>
   </footer>
+
+</body>
 </html>
